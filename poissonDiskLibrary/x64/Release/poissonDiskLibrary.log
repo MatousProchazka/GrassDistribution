@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file framework.cu...
+  
+  D:\sources\sources\poissonDiskLibrary 3\poissonDiskLibrary>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -Xcompiler -lineinfo -ccbin "D:\Programs\Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -D"-lineinfo" -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc141.pdb /FS /Zi  /MD " -o x64\Release\framework.cu.obj "D:\sources\sources\poissonDiskLibrary 3\poissonDiskLibrary\framework.cu" 
+cl : Command line warning D9002: ignoring unknown option '-lineinfo'
+D:/sources/sources/poissonDiskLibrary 3/poissonDiskLibrary/framework.cu(83): warning : variable "part" was declared but never referenced
+  
+cl : Command line warning D9002: ignoring unknown option '-lineinfo'
+  framework.cu
+cl : Command line warning D9002: ignoring unknown option '-lineinfo'
+     Creating library D:\sources\sources\poissonDiskLibrary 3\x64\Release\poissonDiskLibrary.lib and object D:\sources\sources\poissonDiskLibrary 3\x64\Release\poissonDiskLibrary.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  poissonDiskLibrary.vcxproj -> D:\sources\sources\poissonDiskLibrary 3\x64\Release\poissonDiskLibrary.exe
